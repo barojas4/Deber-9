@@ -847,7 +847,7 @@ L=0.004 μH
 
  ## 4. Video
  
- link del video: https://www.youtube.com/watch?v=S2la1igGjh8
+ link del video: https://www.youtube.com/watch?v=UCZHvDfqGGo
  
  ## 5.Conlusión 
  
