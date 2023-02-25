@@ -12,12 +12,13 @@ MATERIA: Fundamentos de Circuitos Electricos
 
 * Objetivo General
 
-Analizar la teoria de la ley de  Ohm y la ley watt para poder resolver problemas de circuitos en serie o paralelos, tambien evidenciar nuevos conceptos como potencia y energia. 
-
+Analizar la teoria e identificar los conceptos de  RLC y resonancia mediante la lectura de los capítulos 17 y 18 del libro "Principios de circuitos eléctricos" de Floyd, para aplicarlos en la práctica y resolución de ejercicios.
 
 * Objetivos especificos
 
-Determinar la solucion de problemas que implique la aplicacion de la ley de Ohm asi como la ley de watt en donde se tiene que tener definido bien los conceptos de resistecias, corriente, voltaje entre otros conceptos.
+Analizar conceptos básicos de los temas circuitos RCL y resonancia, así como, Filtros pasivos, correspondientes al capítulo 17 y 18 del libro de Floyd, que nos adentren al mundo de los circuitos eléctricos.
+
+mplear los conocimientos aprendidos con la lectura del capítulo 17 y 18 para la resolución de los ejercicios pares propuestos en el libro "Principios de circuitos eléctricos" de Floyd.
 
 ## 2.Marco Teorico (Resumen)
 
@@ -850,7 +851,7 @@ L=0.004 μH
  
  ## 5.Conlusión 
  
- * En conclusión en la tarea presente se logró alcanzar los objetivos plantados anteriormente se entiende que la ley de Ohm sirve para encontrar ya sea intensidad de corriente electrica, voltaje o resistencia tambien es posible evidenciar la relacion de la ley de watt para encontrar nuevos conceptos como potencia y enerigia.
+ * En conclusión en la tarea presente se logró alcanzar los objetivos plantados anteriormente  para un mejor entendimiento de los circuitos eléctricos, mostrando un uso correcto los conocimientos para la resolucion de circuitos con bases solidas en la solucion de sistemas ecuaciones con numeros complejos que brindan ayuda en los cálculos de voltajes, corrientes y resistencias, además gracias al calculo de impedancias se puede analizar circuitos de corriente alterna.
   
 * Se realizo un trabajo eficiente que permite reconocer los conceptos de la electrónica fundamental, en beneficio del trabajo se logró definir formulas muy importantes.
 
