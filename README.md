@@ -21,307 +21,826 @@ Determinar la solucion de problemas que implique la aplicacion de la ley de Ohm 
 
 ## 2.Marco Teorico (Resumen)
 
-Para entender la teoría de circuitos eléctricos desde lo más básico es indispensable que la persona conozca unidades de medida en el Sistema internacional de medida, por siguiente trabajamos con la ley de ohm que es corriente igual a voltaje sobre resistencia teniendo en cuenta las unidades de medida como corriente en Amperios voltaje en volts y resistencia en omh. En el segundo capitulo tenemos la relacion entre enrgia y potencia donde la energía es la capacidad de realizar trabajo, y potencia es la razón de cambio a la cual se utiliza la energía.
+![imagen](https://user-images.githubusercontent.com/116810935/221340857-4dd7b42c-a656-43ff-8865-4a58a0688cd1.png)
 
-![1](https://user-images.githubusercontent.com/116810935/202505562-d5492f4d-ddc9-4ca1-83dc-cb9586d95b97.jpg)
-![2](https://user-images.githubusercontent.com/116810935/202505618-02db7136-ac0e-4a29-ab40-ce78ceda5bb5.jpg)
-![3](https://user-images.githubusercontent.com/116810935/202505633-59dfc731-f4ae-423a-996b-cf56f6ad26ff.jpg)
-![4](https://user-images.githubusercontent.com/116810935/202505653-d5cad627-09ba-4764-97fb-aadc7d102ce9.jpg)
-![5](https://user-images.githubusercontent.com/116810935/202505666-5a2e820a-60d4-4eb4-ba79-92d2a51980ab.jpg)
-![6](https://user-images.githubusercontent.com/116810935/202505691-a8053315-6cf4-42e3-a1f3-38a389e033ab.jpg)
-![7](https://user-images.githubusercontent.com/116810935/202505797-82124bf8-9dfc-4fe1-afc1-24a4283c17b6.jpg)
-![8](https://user-images.githubusercontent.com/116810935/202505815-5f11874e-26f7-488e-8e51-344b6f34e0c9.jpg)
-![9](https://user-images.githubusercontent.com/116810935/202505843-2664c178-36ea-4ccd-94d2-e98dd185599c.jpg)
-![10](https://user-images.githubusercontent.com/116810935/202505859-c7c16767-e7d2-4e41-b883-44cc309621e5.jpg)
-![11](https://user-images.githubusercontent.com/116810935/202505921-23939de0-f7c6-4782-afc1-bfae69c36346.jpg)
-![12](https://user-images.githubusercontent.com/116810935/202505940-6d4b3f44-7637-4e48-ac46-e7e996a78d9c.jpg)
+![imagen](https://user-images.githubusercontent.com/116810935/221340871-44888174-39fc-4e09-84a0-3fa18635f5e0.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340876-ca72d54f-7495-4053-816c-2ed55bdc08d7.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340878-ca3c40f5-3349-491b-b606-9d4c372d7f5a.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340884-42d606c0-81e2-4f96-bf2d-e3ac834628e7.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340887-0f6ffc0b-792f-40f8-b45e-7805e4a01c4a.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340890-c1fa61c8-da27-47b9-ade6-291e15c8e0a3.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221340895-4e6ff622-48fd-4261-8182-4fa8542e587d.png)
+
+
 
 
 ## 3. Explicacion y resolución de ejercicios
 
-2. Enuncie la fórmula utilizada para encontrar I cuando los valores de V y R son conocidos.
+PARTE 1: CIRCUITOS EN SERIE SECCIÓN 17–1 Impedancia de circuitos RLC en serie
 
-Para encontrar la intensidad se utiliza I = V/R conociendo los calores de V y R
+ 1.  Cierto circuito RLC en serie tiene los siguientes valores: R = 10ohm, C = 0.047uF, y L = 5mH. Determine la impedancia en forma polar. ¿Cuál es la reactancia neta? La frecuencia de la fuente es de 5 kHz.
 
-4. Enuncie la fórmula utilizada para encontrar R cuando los valores de V e I son conocidos.
+R = 10 ohm
+C = 0.047 uF => 4.7x10^-8 F
+L = 5 mH => 0.005 H
+f = 5 kHz => 5000 Hz
 
-Para encontrar la intensidad se utiliza la resistencia se utiliza la siguiente formula R=V/I
+Xc = 1/2πfC
+Xc = 1/2π(5000)(4.7x10^-8)
+Xc = 677.255 ohm
 
-6. En cierto circuito, I = 5 mA cuando V = 1 V. Determine la corriente para cada uno de los voltajes siguientes en el mismo circuito.
+XL = 2πfC
+XL = 2π(5000)(0.005)
+XL = 157.08 ohm
 
-(a) V = 1.5 V
+Xtot = |157.08 - 677.255|
+Xtot = 520 ohm => Capacitiva
 
-Se realiza una regla de 3 porque tenemos una relación inicial, pero transformando los miliamperios a amperios y la respuesta es 0.0075 A
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)
+Z = √(10)^2 + (250)^2 ∠ tan^-1 (250/10)
+Z = 520 ∠ -88.90° ohm
 
-(b) V = 2V
+  3. Si en la figura 17-59 la frecuencia del voltaje de fuente se duplica a partir del valor que producen las reactancias indicadas, ¿cómo cambia la magnitud de la impedancia?
 
-Se realiza una regla de 3 porque tenemos una relación inicial, pero transformando los miliamperios a amperios y la respuesta es 0.01 A
+![imagen](https://user-images.githubusercontent.com/116810935/221341038-96c91e00-e3e9-4980-94ef-71531978d721.png)
 
-(c) V = 3V
+Xtot = |80 - 35|
+Xtot = 45 ohm => Inductivo
 
-Se realiza una regla de 3 porque tenemos una relación inicial, pero transformando los miliamperios a amperios y la respuesta es 0.01 A
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)
+Z = √(47)^2 + (45)^2 ∠ tan^-1 (45/47)
+Z = 65.07 ∠ 43.75° ohm
 
-(d) V = 4V
+Respuesta
 
-Se realiza una regla de 3 porque tenemos una relación inicial, pero transformando los miliamperios a amperios y la respuesta es 0.02 A
+La impedancia se incrementa a 150 ohm
 
-(e) V = 10 V
+SECCIÓN 17–2 Análisis de circuitos RLC en serie
 
-Se realiza una regla de 3 porque tenemos una relación inicial, pero transformando los miliamperios a amperios y la respuesta es 0.05 A
+ 5.  Para el circuito de la figura 17-59, determine Itot, VR, VL y VC en forma polar.
 
-8. Trace la relación corriente-voltaje para un resistor de cuatro bandas con código de colores gris, rojo, rojo, oro.
+![imagen](https://user-images.githubusercontent.com/116810935/221341079-a9cd0332-e02a-4bdd-96ac-0f81ed12466a.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202586236-8886e820-0bc9-4123-b477-46f556c0f5d6.png)
+Z = R + jXL - jXc Z = 47 + j80 -j35 Z = 47 + j45 ohm
 
-![image](https://user-images.githubusercontent.com/116810935/202586282-348af153-9ae7-4fd8-84fd-59de78cf2458.png)
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)
+Z = √(47)^2 + (45)^2 ∠ tan^-1 (45/47)
+Z = 65.07 ∠ 43.75° ohm
 
-10. ¿Cuál de los circuitos mostrados en la figura 3-20 tiene más corriente? ¿Cuál tiene menos corriente?
+Itot = Vs/Z
+Itot = (4 ∠ 0°)/(65.07 ∠ 43.75°)
+Itot = 61.4 ∠ -43.75° mA
 
-![image](https://user-images.githubusercontent.com/116810935/202516059-cba44a07-68a0-49e5-98e4-b37b19322500.png)
+VR = IR
+VR = (61.4 ∠ -43.75°)(47 ∠ 0°)
+VR = 2.89 ∠ -43.75° V
 
-El resultado es que tiene menos es c
+VL = IXL
+VL = (61.4 ∠ -43.75°)(80 ∠ 90°)
+VL = 4.91 ∠ 46.25° V
 
-12. Si se desea incrementar la cantidad de corriente en un resistor de 100 mA a 150 mA cambiando la fuente de 20 V, ¿en cuántos volts deberá cambiar la fuente? ¿A qué nuevo valor deberá ser ajustada?
+Vc = IXc
+Vc = (61.4 ∠ -43.75°)(35 ∠ -90°)
+VL = 2.15 ∠ -134° V
 
 
-![image](https://user-images.githubusercontent.com/116810935/202516229-5082c2e9-4e94-4e2a-abe5-7912c4cd3a84.png)
+   7. Analice el circuito de la figura 17-60 para determinar lo siguiente (f = 25 kHz):
 
-Primero transformamos las unidades y aplicamos ley de ohm para encontrar la resistencia una vez encontrada la resistencia encuentro el voltaje 
+(a) Itot (b) Preal (c) Pr (d) Pa
 
-14. ¿La gráfica del problema 13 indica una relación lineal entre voltaje y corriente? Explique su respuesta.
+![imagen](https://user-images.githubusercontent.com/116810935/221341099-4bed5c35-5f7b-4d39-9aa3-41aa1e915234.png)
 
-Si tiene una relación lineal por que la Intensidad y el voltaje depende uno del otro 
+1/R = 1/220 + 1/390
+RT = 140.656 ohm
 
-## Cálculo de corriente 
+LT = 0.5 + 1
+LT = 1.5 mH => 0.0015 H
 
-16. Determine la corriente en cada caso:
+CT = 10000 + 1800
+CT = 11800 pF => 1.18x10^-8 F
 
-![image](https://user-images.githubusercontent.com/116810935/202516396-f8e7349b-fbc1-4949-9c49-2a85c66b0c8f.png)
+f = 25 kHz => 25000 Hz
 
-![image](https://user-images.githubusercontent.com/116810935/202517619-dac534a7-e8e3-450d-a06f-495ea47a5d1a.png)
+Xc = 1/2πfC
+Xc = 1/2π(25000)(1.18x10^-8)
+Xc = 539.51 ohm
 
-Transformar a unidades de voltios y amperios y aplicar la ley de Ohm
+XL = 2πfC
+XL = 2π(25000)(0.0015)
+XL = 235.62 ohm
 
-18. Cierto resistor tiene el siguiente código de colores: naranja, naranja, rojo, oro. Determine las corrientes máxima y mínima esperadas cuando se conecta una fuente de 12 V a través del resistor.
+Xtot = |235.62 - 539.51|
+Xtot = 303.9 ohm => Capacitiva
 
-![image](https://user-images.githubusercontent.com/116810935/202516833-410b8123-935a-4be0-b57c-e0d3182306d4.png)
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)
+Z = √(140.656)^2 + (303.9)^2 ∠ tan^-1 (303.9/140.656)
+Z = 334.87 ∠ -65.2° ohm
 
-Transformar las unidades a ohm para poder obtener las respuestas con 5% de error 
+Itot = Vs/Z
+Itot = (12 ∠ 0°)/(334.87 ∠ -65.2°)
+Itot = 35.8 ∠ 65.2° mA
 
-20. Se conecta un resistor de 5 bandas a través de una fuente de 12 V. Determine la corriente si el código de colores es naranja, violeta, amarillo, oro, café.
-La resistencia será de R = 37.4 Ω
+Preal = I^2R
+Preal = 181 mW
 
-![image](https://user-images.githubusercontent.com/116810935/202517130-44bc456c-7b0a-44a0-901b-c5845926e997.png)
+Pr = I^2 Xc
+Pr = 390 mVAR
 
-Reconocer la resistencia en ohm para aplicar la ley de Ohm y encontrar la corriente 
+Pa = I^2 Z
+Pa = 430 mVA
 
-22. El potenciómetro conectado a un reóstato en la figura 3-21 se utiliza para controlar la corriente suministrada a un elemento calentador. Cuando el reóstato se ajusta a un valor de 8 Ωo menos, el elemento calentador puede quemarse. ¿Cuál es el valor nominal del fusible requerido para proteger el circuito si el voltaje a través del elemento calentador en el punto de corriente máxima es de 100 V, y el voltaje a través del reóstato es la diferencia entre el voltaje del elemento calentador y el voltaje de la fuente?
+SECCIÓN 17–3 Resonancia en serie
 
-![image](https://user-images.githubusercontent.com/116810935/202517903-22bdc2a2-d7bc-4b06-9fa5-a8d7032f94b2.png)
+   9. Para el circuito de la figura 17-61, ¿cuál es el voltaje a través de R en condición de resonancia?
 
-Resistencia variable 120 – 100 = 20 V 
+![imagen](https://user-images.githubusercontent.com/116810935/221341132-64b091d8-3e97-4434-8263-17eb3298de23.png)
 
-Corriente real I = 20/8 = 2.5 A
+I = Vs/R
+I = 12/22
+I = 0.54 A
 
-El fusible debe de ser de 2.5 A para proteger el circuito
+VR = IR
+VR = (0.5454)(22)
+VR = 12 V
 
-24. Calcule el voltaje para cada valor de I y R:
+11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
 
-![image](https://user-images.githubusercontent.com/116810935/202522573-b8b6cc5f-384e-4786-98a1-f5fbe69ed3c4.png)
 
-Transformar a unidades de Amperes y Ohm para convertir a voltaje 
+I = 0.05 A
+VL = 100 V
+Vs = 10 V
 
-26. Asigne un valor de voltaje a cada una de las fuentes que aparecen en los circuitos de la figura 3-22 para obtener las cantidades de corriente indicadas.
+VL = IXL
+10 = 0.05(XL)
+XL = 100/0.05
+XL = Xc = 2000 ohm
 
-![image](https://user-images.githubusercontent.com/116810935/202522740-88aaf59b-5a5b-46dc-bc1d-738898a8c960.png)
+I = Vs/Z
+0.05 = 10/Z
+Z = 200 ohm
 
+13. Para la figura 17-62, ¿cuál es el valor de la corriente en los puntos de potencia media?
 
- Utilizar la formula R = V x I darnos cuenta que estén bien las unidades de medida
+![imagen](https://user-images.githubusercontent.com/116810935/221341166-891b2852-add2-49dc-a4e1-1e4f6f7448ca.png)
 
 
-28. Encuentre la resistencia de un reóstato para cada valor de V e I:
+I = Vs/R
+I = 7.07/10
+I = 707 mA
 
-![image](https://user-images.githubusercontent.com/116810935/202525058-ccc09ff8-23f1-4842-b9e5-69b5aba50ae1.png)
+15.  Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con un conmutador:
 
-Utilizar la ley de Ohm y reemplazar los datos
+(a) 500 kHz (b) 1000 kHz (c) 1500 kHz (d) 2000 kHz
 
+![imagen](https://user-images.githubusercontent.com/116810935/221341177-280277e6-1938-4cce-b7ea-c3abead2f909.png)
 
-30. Se aplican seis volts a través de un resistor. Se mide una corriente de 2 mA. ¿Cuál es el valor del resistor?
+17. ¿Es capacitivo o inductivo el circuito de la figura 17-63? Explique su respuesta.
 
-![image](https://user-images.githubusercontent.com/116810935/202523765-ad7903ed-b0de-4f4e-9dbb-27aadbd43020.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341187-5218ffeb-1142-47a6-a17c-394232d97614.png)
 
-Utilizamos ley de ohm y reemplazamos los datos obtenidos 
+L = 15 mH => 0.015 H
+C = 0.022 uF => 2.2x10^-8
+f = 12000 Hz
 
-32. Se desconoce la resistencia de cierto dispositivo eléctrico. Usted dispone de una batería de 12 V y un amperímetro. ¿Cómo determinaría el valor de la resistencia desconocida? Trace las conexiones de circuito necesarias
+Xc = 1/2πfC
+Xc = 1/2π(12000)(2.2x10^-8)
+Xc = 602.86 ohm
 
+XL = 2πfC
+XL = 2π(12000)(0.015)
+XL = 1130.97 ohm
 
-Obtener el valor que mide el amperímetro y con la fuente de poder que mide 12 V utilizamos la ley de omh 
+G = 1/(R ∠ 0°) G = 1/(5 ∠ 0°) G = 200 ∠ 0° uS
 
-34. Un circuito atenuador de luz de 120 V es controlado por un reóstato y está protegido contra corriente excesiva mediante un fusible de 2 A. ¿A qué valor de resistencia mínima puede ser ajustado el reóstato sin que se funda el fusible? Suponga una resistencia de la lámpara de 15 Ω .
+Bc = 1/(Xc ∠ -90°) Bc = 1/(602.86 ∠ -90°) Bc = 1.66 ∠ 90° uS
 
-![image](https://user-images.githubusercontent.com/116810935/202585793-ed74c723-7822-4edc-8766-4b37edd6f0a5.png)
+BL = 1/(XL ∠ 90°) BL = 1/(1130.97 ∠ 90°) BL = 0.884 ∠ -90° uS
 
+Ytot = G + jBc - jBL Ytot = 200 + j1.66 - j0.884 Ytot = 200 uS - j0.776
 
+Ytot = √G^2 + Btot^2 ∠ tan^-1 (Btot/G)
+Ytot = √(200)^2 + (0.776)^2 ∠ tan^-1 (0.776/200)
+Ytot = 200 ∠ -4.43° uS
 
-36 En el circuito de luces de la figura 3-25, identifique el foco fundido con base en la serie de lecturas de ohmímetro mostradas.
+El ángulo de fase de -4.43° indica un circuito levemente capacitivo.
 
-![image](https://user-images.githubusercontent.com/116810935/202531844-43bb08d8-7db4-4527-ad8f-9496c7451885.png)
+SECCIÓN 17–5 Análisis de circuitos RLC en paralelo
 
-## SECCION 4
+   19. Para el circuito de la figura 17-63, determine todas las corrientes y los voltajes en forma polar
 
-2. ¿Cuál es la potencia cuando se consume energía a razón de 350 J/s?
+![imagen](https://user-images.githubusercontent.com/116810935/221341198-42d5cec7-bf7a-4f7e-99f3-129819481235.png)
 
+L = 15 mH => 0.015 H
+C = 0.022 uF => 2.2x10^-8
+f = 12000 Hz
 
-![image](https://user-images.githubusercontent.com/116810935/202532052-81a45c06-ebc5-4776-8b8f-19571ab75cb7.png)
+Xc = 1/2πfC
+Xc = 1/2π(12000)(2.2x10^-8)
+Xc = 602.86 ohm
 
-4. Cuántos watts se utilizan cuando se consumen 7500 J de energía en 5 h?
+XL = 2πfC
+XL = 2π(12000)(0.015)
+XL = 1130.97 ohm
 
+VR = VL = Vc = 5 ∠ 0°
 
-![image](https://user-images.githubusercontent.com/116810935/202532119-5a694b55-767e-483a-8892-185545786f97.png)
+IR = Vs/R
+IR = (5 ∠ 0°)/(100 ∠ 0°)
+IR = 50 ∠ 0° mA
 
+Ic = Vs/Xc
+Ic = (5 ∠ 0°)/(602.86 ∠ -90°)
+Ic = 8.29 ∠ 90° mA
 
-6. Convierta las siguientes cantidades en kilowatts:
+IL = Vs/XL
+IL = (5 ∠ 0°)/(1130.97 ∠ 90°)
+IL = 4.42 ∠ 90° mA
 
+Itot = IR + Ic + IL
+Itot = 50 + j8.29 - j4.42
+Itot = 50 mA + j3.87 mA
 
-(a) 1000 W 
+Itot = √IR^2 + (Ic - IL)^2 ∠ tan^-1 (IcL/IR)
+Itot = √50^2 + (3.87)^2 ∠ tan^-1 (3.87/50)
+Itot = 50.15 ∠ 4.43° mA
 
-1kilowatt = 1000 watts con una regla de 3 obtenemos que 1000W = 1Kilowatt
+21 Cambie la frecuencia a 100 kHz en la figura 17-63 y repita el problema 19.
 
-(b) 3750 W
+![imagen](https://user-images.githubusercontent.com/116810935/221341212-1973a73e-3b5b-4d83-bcad-d6dd80827e77.png)
 
-1kilowatt = 1000 watts con una regla de 3 obtenemos que 3750W = 3.75Kilowatt
+L = 15 mH => 0.015 H
+C = 0.022 uF => 2.2x10^-8
+f = 1000000 Hz
 
-(c) 160 W 
+Xc = 1/2πfC
+Xc = 1/2π(100000)(2.2x10^-8)
+Xc = 72.34 ohm
 
-1kilowatt = 1000 watts con una regla de 3 obtenemos que 160W = 0.16Kilowatt
+XL = 2πfC
+XL = 2π(100000)(0.015)
+XL = 9424.78 ohm
 
-(d) 50,000 W
+VR = VL = Vc = 5 ∠ 0°
 
-1kilowatt = 1000 watts con una regla de 3 obtenemos que 50000W = 50 Kilowatt
+IR = Vs/R
+IR = (5 ∠ 0°)/(100 ∠ 0°)
+IR = 50 ∠ 0° mA
 
-8. Convierta las siguientes cantidades en miliwatts:
+Ic = Vs/Xc
+Ic = (5 ∠ 0°)/(72.34 ∠ -90°)
+Ic = 69.11 ∠ 90° mA
 
-(a) 1 W 
+IL = Vs/XL
+IL = (5 ∠ 0°)/(9424.78 ∠ 90°)
+IL = 0.53 ∠ 90° mA
 
-1 Watt = 1000 mW con una regla de 3 obtenemos que 1W = 1000mW 
+Itot = IR + Ic + IL
+Itot = 50 + j69.11 - j0.53
+Itot = 50 mA + j68.58 mA
 
-(b) 0.4 W
+Itot = √IR^2 + (Ic - IL)^2 ∠ tan^-1 (IcL/IR)
+Itot = √50^2 + (68.58)^2 ∠ tan^-1 (68.58/50)
+Itot = 84.9 ∠ 53.9° mA
 
-1 Watt = 1000 mW con una regla de 3 obtenemos que 0.4W = 400mW 
+SECCIÓN 17–6 Resonancia en paralelo
 
-(c) 0.002 W 
+23. Determine Z en condición de resonancia y fr para el circuito tanque de la figura 17-64.
 
-1 Watt = 1000 mW con una regla de 3 obtenemos que 0.002W = 2mW 
+![imagen](https://user-images.githubusercontent.com/116810935/221341231-40151024-bd24-49fe-a180-8f006f7badcc.png)
 
-(d) 0.0125 W
+R = 20 ohm
+L = 50 mH => 0.05 H
+C = 47 pF => 4.7x10^-11
 
-1 Watt = 1000 mW con una regla de 3 obtenemos que 0.0125W = 12.5mW 
+fr = (√1 - Rw^2C/L)/2π√LC
+fr = (√1 - (20)^2(4.7x10-11)/(0.05))/2π√(4.7x10-11)(0.05)
+fr = 103821.21 Hz
+fr = 104 kHz
+Z = 53.5 Mohm
 
-10. Convierta las siguientes cantidades en watts
+SECCIÓN 17–6 Resonancia en paralelo
 
-a) 1.5 kW 
+  25. Determine Preal, Pr y Pa en el circuito de la figura 17-64 en condición de resonancia.
 
-1 kW = 1000 W con una regla de 3 obtenemos que 1.5kW = 1500W
+![imagen](https://user-images.githubusercontent.com/116810935/221341244-34ec5e51-e30b-45a7-b4ad-67d95c93714b.png)
 
-(b) 0.5 MW 
+![imagen](https://user-images.githubusercontent.com/116810935/221341248-fd16163a-3319-4816-9c55-0fa6adf1e588.png)
 
-1 MW = 1000000W con una regla de 3 obtenemos que 0.5 MW = 500000 W
+PARTE 3: CIRCUITOS EN SERIE-PARALELO
 
-(c) 350 mW 
+SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
 
-1 mW = 0.001 W con una regla de 3 obtenemos que 350mW = 0.35W
+27.  Para cada circuito de la figura 17-65, determine el ángulo de fase entre el voltaje de fuente y la corriente total.
 
-(d) 9000µW
 
-1 µW = 0.000001 W con una regla de 3 obtenemos que 9000µW = 0.009 W
+![imagen](https://user-images.githubusercontent.com/116810935/221341260-0fa40a7f-64b8-46b3-965b-3323ac274579.png)
 
-12. Si se permite que un foco de 300 W permanezca encendido continuamente durante 30 días, ¿cuántos kilowatts-hora de energía consume?
+![imagen](https://user-images.githubusercontent.com/116810935/221341266-0ef0f7cf-557d-487e-b358-22b1f5700526.png)
 
+Circuito a
 
-![image](https://user-images.githubusercontent.com/116810935/202533087-e64f4ee2-f412-41d8-a924-57c935429d72.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341277-ece3d6a6-ed43-48fc-96ac-bbe4121ccd83.png)
 
+![imagen](https://user-images.githubusercontent.com/116810935/221341287-bbea6c49-d5db-4842-9d7a-5d45c3a1bc76.png)
 
-Transformar la potencia en kW después los 30 días en horas y remplazar los datos en la fórmula
+Circuito b
 
-14. Convierta 5x10^-6 watts-minutos en kWh
+![imagen](https://user-images.githubusercontent.com/116810935/221341295-0a27968f-8c89-4821-a80a-1e3cf0c222a4.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202533229-3889f659-7608-48f1-b9aa-be39195828d6.png)
+29. Convierta el circuito de la figura 17-66 a una forma equivalente dispuesta en serie.
 
-Transformar los minutos en hora y los watts a kW
+![imagen](https://user-images.githubusercontent.com/116810935/221341305-e8f3dfda-3073-4f49-a7c1-91c7fc7b8756.png)
 
-16. Durante cuántos segundos debe haber 5 A de corriente a través de un resistor de 47 Ω para consumir 25 J?
+![imagen](https://user-images.githubusercontent.com/116810935/221341310-b78a9d8e-e25b-4143-9831-483cc40559d7.png)
 
+Respuesta
 
-![image](https://user-images.githubusercontent.com/116810935/202533553-13f9b594-39e6-44eb-b8a0-573f5a94dae8.png)
+El nuevo circuito tiene como resistencia 49.03kΩ
 
-Recolectar datos y remplazar en las fórmulas 
+valor de inductancia de 17.44kH.
 
-18. Si un resistor tiene 5.5 V entre sus extremos y 3 mA a través de él, ¿cuál es la potencia?
+31. En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
 
+![imagen](https://user-images.githubusercontent.com/116810935/221341350-640c7863-b1f3-4a0c-a169-b7be264b877c.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202533815-e94030b9-3f20-4433-bd95-e2fa4e66e946.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341354-0072003a-6ab3-4d45-83ba-2d6f4a603c40.png)
 
+33. Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada componente.
 
-Utilizar la fórmula P = V x I tomando en cuenta las unidades 
 
-20. ¿Cuál es la potencia cuando 500 mA de corriente recorren un resistor de 4.7 kΩ?
+![imagen](https://user-images.githubusercontent.com/116810935/221341361-04052181-2549-4ff7-83c5-9d9cf6ebd2be.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202533933-4af24ab5-2e58-486b-8164-5d3927e7ffea.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341365-0ca48b01-f3ca-456f-b600-624e37da1425.png)
 
-Recolectar datos y transformar los 500mA a amperes y los 4.7 k Ω a Ω para remplazar en la fórmula 
+35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
 
-22. Si entre los extremos de un resistor de 680 Ω existen 60 V, ¿cuál es la potencia?
+Calcular la impedancia del conductor e inductor:
 
-![image](https://user-images.githubusercontent.com/116810935/202534032-8ef2c129-16dd-4872-9919-6df680ef8a1a.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341388-dba7d4ff-c1d4-476c-859f-ecdfbcf2770d.png)
 
-Recolectamos datos y aplicamos la fórmula  P = V x I
+Calcular la resistencia total:
 
-24. Si un resistor tiene que transportar 2 A de corriente y manejar 100 W de potencia, ¿de cuántos ohms debe ser? Suponga que el voltaje puede ser ajustado a cualquier valor requerido.
+![imagen](https://user-images.githubusercontent.com/116810935/221341396-8f67c894-7d7e-4498-b333-571e0fddd311.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202534333-7d4e32d3-908c-438b-b1e3-4bf829202de2.png)
+Calcular la corriente total:
 
-Recolectamos los datos para después remplazar en la fórmula 
 
-## Clasificaciones de potencia en resistores
+![imagen](https://user-images.githubusercontent.com/116810935/221341406-5daebddf-5e49-4744-b2a1-4b04a0b0d8c5.png)
 
-26. Un resistor de 6.8 k Ω se quemó en un circuito. Usted debe reemplazarlo por otro con el mismo valor de resistencia. Si el resistor transporta 10 mA, ¿cuál deberá ser su clasificación de potencia? Suponga que dispone de resistores en todas las clasificaciones de potencia estándar
+Calculo de la corriente por la resistencia de 100Ω
 
-![image](https://user-images.githubusercontent.com/116810935/202534455-2bb7f53f-4039-42ab-854b-39ed59dd2319.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341417-4d3a2291-c424-4963-b2ca-88db831d169d.png)
 
-La clasificación de potencia tendrá que ser de 6.8 Watts
+37. Determine las frecuencias resonantes y el voltaje de salida en cada frecuencia mostrada en la figura 17-70.
 
-28. En cada circuito de la figura 4-13, asigne la polaridad apropiada de la caída de voltaje entre los extremos del resistor.
 
+![imagen](https://user-images.githubusercontent.com/116810935/221341437-681d00ca-e1ea-4b83-9cc4-7f0876fa1133.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202534541-b608ecb7-d6a4-4363-9eaf-537364911781.png)
 
+Frecuencia en serie
 
+![imagen](https://user-images.githubusercontent.com/116810935/221341444-21e9f7dd-e736-4878-acdd-5278f7936fb8.png)
 
-30 Suponga que una batería D alcalina puede mantener un voltaje promedio de 1.25 V durante 90 horas en una carga de 10 Ω antes de volverse inutilizable. ¿Qué promedio de potencia se suministra a la carga durante la vida de la batería?
+Frecuencia en paralelo
 
-![image](https://user-images.githubusercontent.com/116810935/202534919-1f3678a4-24bd-474e-b89f-24cc1574781e.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341452-beca3626-e230-45f7-b871-70b7750d3397.png)
 
+SECCIÓN 17–8 Ancho de banda de circuitos resonantes
 
-Recolectamos datos y utilizamos ley de ohm para encontrar la intensidad y aplicar la fórmula de potencia 
+   39.En condición de resonancia, XL = 2 kΩ y RW 25Ω en un circuito RLC en paralelo. La frecuencia resonante es de 5 kHz. Determine el ancho de banda.
 
-32. Una batería puede proporcionar un promedio de 1.5 A de corriente durante 24 h. ¿Cuál es su capacidad en amperes-hora?
+Para la resolución del problema se tiene las siguientes formulas:
 
-![image](https://user-images.githubusercontent.com/116810935/202535050-66f7e7b2-af7f-4c08-8eb9-e3b36518b826.png)
+El factor Q:
 
-Recolectar datos y utilizar la formula I x t = Q  sin olvidarnos de las medidas metricas
+![imagen](https://user-images.githubusercontent.com/116810935/221341465-002ed306-892c-4435-8a1a-42a54b799cff.png)
 
+Un valor alto de Q produce un ancho de banda más angosto. Un valor bajo de Q produce un ancho de banda más amplio. En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q:
 
-34. Si la capacidad de una batería es de 650 mAh, ¿cuánta corriente promedio suministrará durante 48 h?
+![imagen](https://user-images.githubusercontent.com/116810935/221341471-7931d6c4-5d3b-4efb-adb2-23d6271f4955.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202535378-cc2d8242-1fae-4473-8b5e-90484bef2f53.png)
+41. En cierto circuito RLC, la potencia en condición de resonancia es de 2.75 W. ¿Cuál es la potencia a la frecuencia crítica baja?
 
-Recolectar datos para remplazar en la formula 
+En condición de resonancia:
 
-36. Para operar al 85% de eficiencia, ¿cuánta potencia de salida debe producir una fuente si la potencia de entrada es de 5 W?
+![imagen](https://user-images.githubusercontent.com/116810935/221341484-3ef94259-6317-4dc1-abbc-811dcd437719.png)
 
-![image](https://user-images.githubusercontent.com/116810935/202535455-3da62361-8f5c-4b4e-a0b3-e10bc56aa0de.png)
+![imagen](https://user-images.githubusercontent.com/116810935/221341487-6de6dca6-d850-480a-8d7a-e451d37c51f0.png)
 
-Transformar la eficiencia a watts para aplicar la fórmula 
+De forma tal que la potencia a la frecuencia crítica baja es:
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341491-8738edb6-d1a6-4aca-87db-7a6868d1f254.png)
+
+  43.  Cierto circuito resonante en paralelo tiene un factor Q de 50 y un AB de 400 Hz. Si Q se duplica, ¿cuál es el ancho de banda a la misma fr?
+
+En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341506-42ef64ed-c41e-4041-bb65-513182c71926.png)
+
+Para ello se calcula primeramente frecuencia de resonancia:
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341513-9c465ef6-4a2b-48e3-b9bf-3c33e806956f.png)
+
+Ahora según el enunciado nos dice que el factor Q se ha duplicado entonces de 50 pasa a 100 y se determina con este valor el ancho de banda de fr:
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341524-26570fbb-bf83-40a8-b8ad-3f4908132315.png)
+
+SECCIÓN 18–1 Filtros pasabajas
+
+   1. En cierto filtro pasabajas, XC = 500 Ω y R = 2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando la entrada es de 10 V rms?
+
+Al aplicar la fórmula del divisor de voltaje, la magnitud del voltaje de salida es:
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341541-da06c757-742f-41dc-be23-a4f0821187e5.png)
+
+3.Determine el voltaje de salida (Vsal) de cada filtro mostrado en la figura 18-38 a la frecuencia especificada cuando Vent = 10 V
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341560-4155a5aa-b5f6-4880-bf90-9d4e37156906.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341565-a0112542-beb3-4b7c-a66d-7334879e7623.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341570-bfd40cc2-72cf-44a7-b6b3-11a667f83cad.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341573-9bf80101-6e71-4878-be0e-3fad7ce91c3f.png)
+
+5. Para el filtro de la figura 18-39, calcule el valor de C requerido para cada una de las siguientes frecuencias críticas:
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341583-63bfa5e4-26e1-456f-8dc3-602d82b5eb22.png)
+
+fc=1/2πRC
+
+fc2πR=1/C
+
+C= 1/(fc2πR)
+
+Reemplazando valores
+
+(a) 60 Hz
+
+C= 1/(60Hz2π220Ω)
+
+C= 0.000012057 F=12.1 μF
+
+(b) 500 Hz
+
+C= 1/(500Hz2π220Ω)
+
+C= 0.000001447 F=1.45 μF
+
+(c) 1 kHz
+
+C= 1/(1000 Hz2π220Ω)
+
+C= 0.000000723 F=0.72 μF
+
+(d) 5 kHz
+
+C= 1/(5000 Hz2π220Ω)
+
+C= 0.000000145 F=0.145 μF
+
+   7. Trace una curva de Bode para cada una de las partes del problema 5.
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341595-f7647c80-2826-4723-81d9-ce367c4cc9e7.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341604-be430381-55a0-4bcf-ae68-2105d18f01c0.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341607-d9b4cc53-9ef4-457d-85cc-91976ddb6b4e.png)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341613-38fa2eb7-2267-4810-828b-bd6a561e6ea9.png)
+
+  9.  l voltaje de entrada a un filtro RC pasabajas es de 8 V rms. Determine el voltaje de salida a los siguientes niveles de dB:
+
+20*log⁡(Vsalida/Ventrada)=dB
+
+log⁡(Vsalida/(8 Vrms))=dB/20
+
+Vsalida/(8 Vrms)=e^(dB/20)
+
+Vsalida=8 Vrms* e^(dB/20)
+
+Reemplazando valores
+
+(a) -1 dB
+
+Vsalida=8 Vrms* e^((-1)/20)
+
+Vsalida=7.61 V
+
+(b) -3 dB
+
+Vsalida=8 Vrms* e^((-3)/20)
+
+Vsalida=6.89 V
+
+(c) -6 dB
+
+Vsalida=8 Vrms* e^((-6)/20)
+
+Vsalida=5.92 V
+
+(d) -20 dB
+
+Vsalida=8 Vrms* e^((-20)/20)
+
+Vsalida=2.94 V
+
+SECCIÓN 18–2 Filtros pasaaltas
+
+
+   11. l voltaje de entrada a un filtro RC pasabajas es de 8 V rms. Determine el voltaje de salida a los siguientes niveles de dB:
+
+20*log⁡(Vsalida/Ventrada)=dB
+
+log⁡(Vsalida/(8 Vrms))=dB/20
+
+Vsalida/(8 Vrms)=e^(dB/20)
+
+Vsalida=8 Vrms* e^(dB/20)
+
+Reemplazando valores
+
+(a) -1 dB
+
+Vsalida=8 Vrms* e^((-1)/20)
+
+Vsalida=7.61 V
+
+(b) -3 dB
+
+Vsalida=8 Vrms* e^((-3)/20)
+
+Vsalida=6.89 V
+
+(c) -6 dB
+
+Vsalida=8 Vrms* e^((-6)/20)
+
+Vsalida=5.92 V
+
+(d) -20 dB
+
+Vsalida=8 Vrms* e^((-20)/20)
+
+Vsalida=2.94 V
+
+SECCIÓN 18–2 Filtros pasaaltas
+
+13. Determine el voltaje de salida de cada filtro mostrado en la figura 18-41 a la frecuencia especificada cuando Vent = 10 V.
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341668-0803f8dc-e574-4237-82c3-82ae4226d252.png)
+
+Reactancia capacitiva
+
+Xc=1/(2πfC)
+
+Xc=1/(2π60Hz10μF)=265 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(100/√(100^2+265^2 ))*10
+
+Vsalida=3.53 Vrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (265/100)
+
+φ=69.33°
+
+El voltaje
+
+Vsalida=3.53∠69.33° V
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341682-45787d25-0444-42f5-9715-5d141b066da6.png)
+
+Reactancia capacitiva
+
+Xc=1/(2πfC)
+
+Xc=1/(2π400Hz4.7μF)=84.6 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(47/√(47^2+〖84.6〗^2 ))*10
+
+Vsalida=4.85 Vrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (84.6/47)
+
+φ=60.95°
+
+El voltaje
+
+Vsalida=4.85∠60.95° V
+
+
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341691-ca33e42a-22fd-463e-989d-ecbb657983c1.png)
+
+Rw=2πf*L
+
+Rw=2π1000 Hz*,005 H=31.42
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(330/(330+31.42))*10
+
+Vsalida=9.47mVrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Rw/R)
+
+φ=〖tan〗^(-1) (3142/330)
+
+φ=84°
+
+El voltaje
+
+Vsalida=9.4∠84° mV
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341706-b072c580-eccb-4732-9c03-9f48bf7bc713.png)
+
+Rw=2πf*L
+
+Rw=2π2000 Hz*0.08 H=1005.3
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(10/(10+1005.3))*10
+
+Vsalida=995 mVrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Rw/R)
+
+φ=〖tan〗^(-1) (1005.3/10)
+
+φ=84.3°
+
+El voltaje
+
+Vsalida=995∠84.3° mV
+
+15. Trace la curva de Bode para cada filtro mostrado en la figura 18-41.
+
+a) 
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341727-50939d99-e86d-4422-bea4-9064bed8d95b.png)
+
+b)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341730-30e27d11-afa6-45b6-b57e-c5464d18cd81.png)
+
+c)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341736-2f94b3b6-0240-49b1-9ce9-95a03db29458.png)
+
+d)
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341740-cc7519a5-fe34-417c-ad7c-85d54d7a52ab.png)
+
+SECCIÓN 18–3 Filtros pasabanda
+
+   17. Determine la frecuencia central para cada filtro de la figura 18-43.
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341745-abac8da8-ef14-4bed-8fd1-fdbfe489fb7a.png)
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+fo=√(1-(0^20.01μF/12mH))/(2π√(12mH0.01μF))
+
+fo=14.5 kHz
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341749-1ddb6629-67a0-48c8-83c7-fca105179ad1.png)
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+fo=√(1-(0^20.022μF/2mH))/(2π√(2mH0.022μF))
+
+fo=24.0 kHz
+
+   19. ¿Cuáles son las frecuencias críticas alta y baja para cada filtro de la figura 18-43? Suponga que la respuesta es simétrica con respecto a f0.
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341767-fcad4435-ade1-4d02-a872-13830d08b0f2.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*1H/680Ω)
+
+fc=15.06 kHz
+
+fc=1/(2πRC)
+
+fc=1/(2π680Ω10μF)
+
+fc=13.94 kHz
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341780-2a6bc891-02ab-4434-a19e-75854a147d58.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*(2.5 μH)/(1 kΩ))
+
+fc=25.3 kHz
+
+fc=1/(2πRC)
+
+fc=1/(2π1 kΩ25pF)
+
+fc=22.7 kHz
+
+   21. Si la resistencia de devanado de las bobinas que aparecen en la figura 18-44 es de 4 Ω, ¿cuál es el voltaje de salida en condición de resonancia cuando Vent = 120 V?
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341798-5731f41d-9bca-4983-963c-a367d85934b9.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(680/(680+4))*120V
+
+Vsalida=119.29V
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341807-c3640a3a-efe7-4e38-9c16-eef133921a52.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(1000/(1000+4))*120V
+
+Vsalida=119.52V
+
+23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB = 500 Hz; Q = 40; e IC(máx) =20 mA, VC(máx) =2.5 V. Entonces
+
+el valor de la capaitancia es 0.064 uF
+
+La inductancia debe ser de 989 uH
+
+la frecuencia f= 20 kHz
+
+   25. Para cada filtro de la figura 18-47, determine la frecuencia central de la banda de rechazo
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341830-5c880e67-7dba-4157-8912-b931facddadb.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-1000^26.8/0,5)/2piSqrt(0.56,8)
+
+F0=318Hz
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341845-af8e5bf1-7fb8-47d7-9e13-7c6b97ff17f8.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-2200^247/10)/2piSqrt(1047)
+
+F0=10,21Hz
+
+27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
+
+![imagen](https://user-images.githubusercontent.com/116810935/221341853-ebfd423d-ca68-4c39-9aa2-0e278e475010.png)
+
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+Si Rw = 0 ohmios
+
+fo=1/(2π√(L*C))
+
+2πfo=1/√(LC)
+
+√(2πfo)=1/(LC)
+
+L=C/√(2π*fo )
+
+Reemplazando datos
+
+Fo = 1200 kHz
+
+L=(0.22 μF)/√(2π*1200 kHz )
+
+L=0.0025 μH
+
+Fo = 456 kHz
+
+L=(0.22 μF)/√(2π*456 kHz )
+
+L=0.004 μH
+
+
+
 
 
 
